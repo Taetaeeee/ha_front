@@ -34,7 +34,6 @@
 
 .nav_login {
   display: flex;
-
   align-items: center;
   border-radius: 13px;
   padding: 8px 12px;
@@ -87,6 +86,699 @@
   width: 50%;
   height: 50%;
 } /* 스크롤될 때 작아지도록 로고 크기 조정 */
+
+@media (max-width: 1164px) {
+  .nav_bar.scrolled {
+    background-color: #fff;
+    padding: 10%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav_main {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+  }
+
+  .nav_main li {
+    margin: 0 5px;
+    margin-left: 75px;
+    margin-right: 75px;
+  }
+
+  .nav_main a {
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  .nav_login {
+    display: flex;
+    align-items: center;
+    border-radius: 13px;
+    padding: 8px 12px;
+    margin-right: 100px;
+  }
+
+  .nav_login .login,
+  .nav_login .signup {
+    font-size: 12px;
+  }
+
+  .nav_logout {
+    display: flex;
+    align-items: center;
+    background-color: #000000; /* 유저 박스 배경색 */
+    border-radius: 13px;
+    padding: 8px 12px;
+    margin-right: 7%;
+    color: #fff; /* 유저 박스 텍스트 색 */
+    font-size: 1rem;
+  }
+
+  .nav_bar {
+    background-color: transparent;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease, padding 0.3s ease;
+  }
+
+  .nav_logo {
+    margin-left: 80px;
+  }
+  .nav_logo img {
+    height: 76px; /* 로고 이미지 높이 조정 */
+  }
+  .nav_login div {
+    font-size: 1rem; /* Maintain font size */
+  }
+}
+
+@media (max-width: 1122px) {
+  .nav_bar.scrolled {
+    background-color: #fff;
+    padding: 10%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav_main {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+  }
+
+  .nav_main li {
+    margin: 0 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .nav_main a {
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  .nav_login {
+    display: flex;
+    align-items: center;
+    border-radius: 13px;
+    padding: 8px 12px;
+    margin-right: 100px;
+  }
+
+  .nav_login .login,
+  .nav_login .signup {
+    font-size: 12px;
+  }
+
+  .nav_logout {
+    display: flex;
+    align-items: center;
+    background-color: #000000; /* 유저 박스 배경색 */
+    border-radius: 13px;
+    padding: 8px 12px;
+    margin-right: 7%;
+    color: #fff; /* 유저 박스 텍스트 색 */
+    font-size: 1rem;
+  }
+
+  .nav_bar {
+    background-color: transparent;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease, padding 0.3s ease;
+  }
+
+  .nav_logo {
+    margin-left: 60px;
+  }
+  .nav_logo img {
+    height: 72px; /* 로고 이미지 높이 조정 */
+  }
+  .nav_login div {
+    font-size: 0.9rem; /* Maintain font size */
+  }
+}
+
+@media (max-width: 1022px) {
+  .nav_bar.scrolled {
+    background-color: #fff;
+    padding: 10%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav_main {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+  }
+
+  .nav_main li {
+    margin: 0 5px;
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+
+  .nav_main a {
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  .nav_login {
+    display: flex;
+    align-items: center;
+    border-radius: 13px;
+    padding: 8px 12px;
+    margin-right: 100px;
+  }
+
+  .nav_login .login,
+  .nav_login .signup {
+    font-size: 11.5px;
+  }
+
+  .nav_logout {
+    display: flex;
+    align-items: center;
+    background-color: #000000; /* 유저 박스 배경색 */
+    border-radius: 13px;
+    padding: 8px 12px;
+    margin-right: 7%;
+    color: #fff; /* 유저 박스 텍스트 색 */
+    font-size: 1rem;
+  }
+
+  .nav_bar {
+    background-color: transparent;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease, padding 0.3s ease;
+  }
+
+  .nav_logo {
+    margin-left: 50px;
+  }
+  .nav_logo img {
+    height: 68px; /* 로고 이미지 높이 조정 */
+  }
+  .nav_login div {
+    font-size: 0.8rem; /* Maintain font size */
+  }
+}
+
+@media (max-width: 962px) {
+  .nav_bar.scrolled {
+    background-color: #fff;
+    padding: 10%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav_main {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+  }
+
+  .nav_main li {
+    margin: 0 5px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .nav_main a {
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  .nav_login {
+    display: flex;
+    align-items: center;
+    border-radius: 13px;
+    padding: 8px 12px;
+    margin-right: 100px;
+  }
+
+  .nav_login .login,
+  .nav_login .signup {
+    font-size: 11px;
+  }
+
+  .nav_logout {
+    display: flex;
+    align-items: center;
+    background-color: #000000; /* 유저 박스 배경색 */
+    border-radius: 13px;
+    padding: 8px 12px;
+    margin-right: 7%;
+    color: #fff; /* 유저 박스 텍스트 색 */
+    font-size: 1rem;
+  }
+
+  .nav_bar {
+    background-color: transparent;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease, padding 0.3s ease;
+  }
+
+  .nav_logo {
+    margin-left: 40px;
+  }
+  .nav_logo img {
+    height: 66px; /* 로고 이미지 높이 조정 */
+  }
+  .nav_login div {
+    font-size: 0.7rem; /* Maintain font size */
+  }
+}
+
+@media (max-width: 900px) {
+  .nav_bar.scrolled {
+    background-color: #fff;
+    padding: 10%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav_main {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+  }
+
+  .nav_main li {
+    margin: 0 5px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .nav_main a {
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+  .nav_login {
+    display: flex;
+    align-items: center;
+    border-radius: 13px;
+    padding: 8px 12px;
+    margin-right: 100px;
+  }
+
+  .nav_login .login,
+  .nav_login .signup {
+    font-size: 10px;
+  }
+
+  .nav_logout {
+    display: flex;
+    align-items: center;
+    background-color: #000000; /* 유저 박스 배경색 */
+    border-radius: 13px;
+    padding: 8px 12px;
+    margin-right: 7%;
+    color: #fff; /* 유저 박스 텍스트 색 */
+    font-size: 1rem;
+  }
+
+  .nav_bar {
+    background-color: transparent;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease, padding 0.3s ease;
+  }
+
+  .nav_logo {
+    margin-left: 40px;
+  }
+  .nav_logo img {
+    height: 64px; /* 로고 이미지 높이 조정 */
+  }
+  .nav_login div {
+    font-size: 0.6rem; /* Maintain font size */
+  }
+}
+
+@media (max-width: 879px) {
+  .nav_bar.scrolled {
+    background-color: #fff;
+    padding: 10%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav_main {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+  }
+
+  .nav_main li {
+    margin: 0 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .nav_main a {
+    color: #000;
+    text-decoration: none;
+    font-size: 13px;
+  }
+
+  .nav_login {
+    display: flex;
+    align-items: center;
+    border-radius: 13px;
+    padding: 8px 12px;
+    margin-right: 100px;
+  }
+
+  .nav_login .login,
+  .nav_login .signup {
+    font-size: 9px;
+  }
+
+  .nav_logout {
+    display: flex;
+    align-items: center;
+    background-color: #000000; /* 유저 박스 배경색 */
+    border-radius: 13px;
+    padding: 8px 12px;
+    margin-right: 7%;
+    color: #fff; /* 유저 박스 텍스트 색 */
+    font-size: 1rem;
+  }
+
+  .nav_bar {
+    background-color: transparent;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease, padding 0.3s ease;
+  }
+
+  .nav_logo {
+    margin-left: 35px;
+  }
+  .nav_logo img {
+    height: 62px; /* 로고 이미지 높이 조정 */
+  }
+  .nav_login div {
+    font-size: 0.5rem; /* Maintain font size */
+  }
+}
+
+@media (max-width: 847px) {
+  .nav_bar.scrolled {
+    background-color: #fff;
+    padding: 10%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav_main {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+  }
+
+  .nav_main li {
+    margin: 0 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .nav_main a {
+    color: #000;
+    text-decoration: none;
+    font-size: 13px;
+  }
+
+  .nav_login {
+    display: flex;
+    align-items: center;
+    border-radius: 13px;
+    padding: 8px 12px;
+    margin-right: 100px;
+  }
+
+  .nav_login .login,
+  .nav_login .signup {
+    font-size: 8px;
+  }
+
+  .nav_logout {
+    display: flex;
+    align-items: center;
+    background-color: #000000; /* 유저 박스 배경색 */
+    border-radius: 13px;
+    padding: 8px 12px;
+    margin-right: 7%;
+    color: #fff; /* 유저 박스 텍스트 색 */
+    font-size: 1rem;
+  }
+
+  .nav_bar {
+    background-color: transparent;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease, padding 0.3s ease;
+  }
+
+  .nav_logo {
+    margin-left: 30px;
+  }
+  .nav_logo img {
+    height: 60px; /* 로고 이미지 높이 조정 */
+  }
+  .nav_login div {
+    font-size: 0.4rem; /* Maintain font size */
+  }
+}
+
+@media (max-width: 827px) {
+  .nav_bar.scrolled {
+    background-color: #fff;
+    padding: 10%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav_main {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+  }
+
+  .nav_main li {
+    margin: 0 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .nav_main a {
+    color: #000;
+    text-decoration: none;
+    font-size: 12px;
+  }
+
+  .nav_login {
+    display: flex;
+    align-items: center;
+    border-radius: 13px;
+    padding: 8px 12px;
+    margin-right: 100px;
+  }
+
+  .nav_login .login,
+  .nav_login .signup {
+    font-size: 7px;
+  }
+
+  .nav_logout {
+    display: flex;
+    align-items: center;
+    background-color: #000000; /* 유저 박스 배경색 */
+    border-radius: 13px;
+    padding: 8px 12px;
+    margin-right: 7%;
+    color: #fff; /* 유저 박스 텍스트 색 */
+    font-size: 1rem;
+  }
+
+  .nav_bar {
+    background-color: transparent;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease, padding 0.3s ease;
+  }
+
+  .nav_logo {
+    margin-left: 25px;
+  }
+  .nav_logo img {
+    height: 58px; /* 로고 이미지 높이 조정 */
+  }
+  .nav_login div {
+    font-size: 0.4rem; /* Maintain font size */
+  }
+}
+
+@media (max-width: 797px) {
+  .nav_bar.scrolled {
+    background-color: #fff;
+    padding: 10%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav_main {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+  }
+
+  .nav_main li {
+    margin: 0 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .nav_main a {
+    color: #000;
+    text-decoration: none;
+    font-size: 12px;
+  }
+
+  .nav_login {
+    display: flex;
+    align-items: center;
+    border-radius: 13px;
+    padding: 8px 12px;
+    margin-right: 100px;
+  }
+
+  .nav_login .login,
+  .nav_login .signup {
+    font-size: 6px;
+  }
+
+  .nav_logout {
+    display: flex;
+    align-items: center;
+    background-color: #000000; /* 유저 박스 배경색 */
+    border-radius: 13px;
+    padding: 8px 12px;
+    margin-right: 7%;
+    color: #fff; /* 유저 박스 텍스트 색 */
+    font-size: 1rem;
+  }
+
+  .nav_bar {
+    background-color: transparent;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease, padding 0.3s ease;
+  }
+
+  .nav_logo {
+    margin-left: 20px;
+  }
+  .nav_logo img {
+    height: 56px; /* 로고 이미지 높이 조정 */
+  }
+  .nav_login div {
+    font-size: 0.4rem; /* Maintain font size */
+  }
+}
 
 @media (max-width: 768px) {
   .nav_bar.scrolled {
